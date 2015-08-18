@@ -1,0 +1,28 @@
+{
+  "name": "gravatar-img",
+  "version": "1.0.1",
+  "authors": [
+    "laco0416 <laco0416@gmail.com>"
+  ],
+  "description": "An element providing a gravatar image",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "seed",
+    "gravatar"
+  ],
+  "main": "gravatar-img.html",
+  "license": "MIT",
+  "homepage": "https://github.com/laco0416/gravatar-img/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}

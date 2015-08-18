@@ -1,0 +1,1 @@
+window.gravatar = require("gravatar");
