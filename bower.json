@@ -11,9 +11,9 @@
     "seed",
     "gravatar"
   ],
-  "main": "gravatar-img.html",
+  "main": "gulpfile.ts",
   "license": "MIT",
-  "homepage": "https://github.com/laco0416/gravatar-img/",
+  "homepage": "https://github.com/laco0416/gravatar-img",
   "ignore": [
     "/.*",
     "/test/"
