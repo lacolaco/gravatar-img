@@ -1,0 +1,67 @@
+<!--
+@license
+Copyright (c) 2015 Suguru Inatomi. All rights reserved.
+-->
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+An element providing a img of gravatar
+
+Example:
+
+    <gravatar-img email="foo@bar.com"></gravatar-img>
+
+@element gravatar-img
+@demo demo/index.html
+-->
+<dom-module id="gravatar-img">
+
+  <style>
+    :host {
+      display: block;
+      box-sizing: border-box;
+    }
+
+    .author img {
+      float: left;
+      margin-right: 5px;
+      max-height: 100px;
+      max-width: 100px;
+    }
+  </style>
+
+  <template>
+      <img src="{{ url }}">
+  </template>
+
+</dom-module>
+
+<script src="build/gravatar.js"></script>
+<script>
+
+  Polymer({
+
+    is: 'gravatar-img',
+
+    properties: {
+
+      /**
+       * `email` indicates gravatar account email
+       */
+      email: {
+        type:String
+      }
+    },
+
+    // Element Lifecycle
+
+    ready: function() {
+      this.url = ""
+    },
+
+    attached: function() {
+      this.url = window.gravatar.url(this.email);
+    }
+  });
+
+</script>

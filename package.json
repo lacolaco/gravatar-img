@@ -1,0 +1,22 @@
+{
+  "name": "gravatar-img",
+  "version": "1.0.0",
+  "description": "An element providing a starting point for your own reusable Polymer elements.",
+  "main": "gravater-img.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "laco0416 <laco0416@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gravatar": "^1.3.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1",
+    "typescript-require": "^0.2.9"
+  }
+}
